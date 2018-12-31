@@ -1,2 +1,2 @@
 # wtop
-A tool from writing to publih by Zach Zhang
+A tool from writing to publish by Zach Zhang
