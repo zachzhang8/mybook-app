@@ -4,7 +4,9 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist",
+    "dev-bundle": "webpack -wd"
   },
   "repository": {
     "type": "git",
@@ -30,8 +32,11 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.12.4",
-    "nodemon": "^1.18.11"
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11",
+    "react-test-renderer": "^16.8.6"
   }
 }
